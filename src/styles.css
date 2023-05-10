@@ -26,7 +26,7 @@
     line-height: 79%;
     letter-spacing: -.08em;
     font-family: RobotoFlex,Arial,Helvetica,sans-serif;
-    font-variation-settings: "wght" 400,"wdth" 140, "slnt" 0;
+    font-variation-settings: "wght" 200,"wdth" 140, "slnt" 0;
 }
 
 .fondu-out { 
@@ -67,6 +67,7 @@ a[href^="mailto:"] {
     margin: 2px;
     justify-content: center;
     align-content: center;
+    font-variation-settings: "wght" 100,"wdth" 150, "slnt";
 }
 .btn1 ,.btn2{ 
     width: auto;
