@@ -36,6 +36,7 @@
             ],
             "scripts": [
               "src/assets/loader.js",
+              "src/assets/galery.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "src/assets/gsap-public/minified/gsap.min.js"
             ]
@@ -109,6 +110,7 @@
             ],
             "scripts": [
               "src/assets/loader.js",
+              "src/assets/galery.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "src/assets/gsap-public/minified/gsap.min.js"
             ]

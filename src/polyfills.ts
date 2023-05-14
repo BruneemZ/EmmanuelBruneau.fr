@@ -51,6 +51,7 @@ import 'zone.js';  // Included with Angular CLI.
  * APPLICATION IMPORTS
  */
 import './assets/loader.js';
+import './assets/galery.js';
 import './assets/gsap-public/minified/gsap.min.js';
 
 
