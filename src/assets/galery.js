@@ -1,21 +1,8 @@
-
 window.addEventListener ('click', () => {
     let url = window.location.pathname;
     let oldIndex = -1; 
 
     if (url=="/Privee") {
-      // Timeline  GSAP - Portfolio 
-        let tl = gsap.timeline();
-        tl.from('.textAnimated span',{
-            duration:1, 
-            opacity:0.2,
-            stagger:0.05,
-            filter: 'blur(10px)'
-        });
-        tl.from('.trait', { 
-            width: 0
-        });
-
         //****************************************************** Gestion de la galery d'images *******************************************/
         let imgGalery = document.querySelectorAll("img.imgGalery");
 

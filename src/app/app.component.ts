@@ -17,6 +17,7 @@ export class AppComponent {
 
   constructor (private router : Router , private dfs: DatafireService ) {}
 
+
   ngOnInit(): void {
  
      this.dbase = this.dfs.connectFirestore(); 
