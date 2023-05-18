@@ -42,7 +42,6 @@
     display: grid;
     position: relative;
     grid-template-columns: 25% 25% 25% 25%;
-
 }
 
 .imgGalery { 
@@ -54,12 +53,15 @@
     border-top: solid 1px yellow;
     cursor: pointer;
 }
+.imgGalery:hover { 
+    opacity: 0.8;
+}
 
 .imgGaleryClick { 
     position: fixed;
     margin: 10px;
-    width: 550px;
-    height: 400px;
+    width: 750px;
+    height: 500px;
     top: 50%;
     left : 50%;
     background-color: white;
@@ -80,9 +82,9 @@
     color: black;
     justify-content: center;
     align-content: center;
-    font-variation-settings: "wght" 600,"wdth" 140, "slnt" 0;
+    font-variation-settings: "wght" 200,"wdth" 50, "slnt" 0;
     font-size: 20px;
-    animation: whiteBlock 4s forwards;
+    animation: whiteBlock 1s forwards;
 }
 
 /******************************* Carousel ***********************/
@@ -168,15 +170,14 @@
         align-content: center;
     }
     .blockOver1 { 
-        position: absolute;
+        position: relative;
         top: 10px;
         left: 125px;
     }
     .imgGaleryClick { 
         position: fixed;
-        margin: 10px;
-        width: 400px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
         top: 50%;
         left : 50%;
         background-color: white;
@@ -184,6 +185,21 @@
         z-index: 100;
         transform: translate(-50%, -50%);
         cursor: pointer;
+    }
+
+    .whiteBlock { 
+        margin: 10px;
+        width: 350px;
+        height: 50px;
+        opacity: 1;
+        background-color: transparent;
+        border-bottom: solid 0px yellow;
+        border-top: solid 0px yellow;
+        color: white;
+        justify-content: center;
+        align-content: center;
+        font-variation-settings: "wght" 100,"wdth" 50, "slnt" 0;
+        font-size: 20px;
     }
 }
   /**************** animations  *******************/
@@ -203,15 +219,9 @@
   @keyframes whiteBlock {
     0% { 
         transform: scaleX(0%);  
-        opacity: 0;
     } 
-    80% { 
-        transform:scaleX(100%);  
-        opacity: 0.5;
-  
-    }
     100% { 
-        opacity: 1;
+        transform:scaleX(100%);  
     }   
   }
 

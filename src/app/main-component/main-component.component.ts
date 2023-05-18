@@ -21,5 +21,9 @@ export class MainComponentComponent implements OnInit {
     gsap.from('.trait', { 
         width: 0
     });
+    gsap.from('.imgGalery', { 
+      y:100,
+      stagger: 0.05,  
+    } ); 
   };
 }

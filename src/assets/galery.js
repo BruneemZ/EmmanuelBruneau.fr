@@ -4,7 +4,7 @@ window.addEventListener ('click', () => {
 
     if (url=="/Privee") {
         //****************************************************** Gestion de la galery d'images *******************************************/
-        let imgGalery = document.querySelectorAll("img.imgGalery");
+        /* let imgGalery = document.querySelectorAll("img.imgGalery");
 
         // ajoute un écouteur d'événement aux images de la galey lorsqu'il est cliqué
         imgGalery.forEach((element, currentIndex) => {
@@ -23,7 +23,7 @@ window.addEventListener ('click', () => {
                 imgGalery[index].classList.remove('imgGalery');
                 imgGalery[index].classList.add('imgGaleryClick');
             }
-        }
+        } */
         //****************************************************** Fin - Gestion de la galery d'images *******************************************/
 
         // ajoute un écouteur d'événement aux contrôles du carrousel pour passer à l'élément correspondant lorsqu'il est cliqué
