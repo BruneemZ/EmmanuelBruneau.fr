@@ -51,11 +51,11 @@
     background-color: white;
     border-bottom: solid 1px yellow;
     border-top: solid 1px yellow;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .imgGalery:hover { 
     opacity: 0.8;
-}
+} 
 
 .imgGaleryClick { 
     position: fixed;
